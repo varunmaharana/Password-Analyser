@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: #303841;
+    color: #EEEEEE;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0 20px;
+    background: #00f2ff;
+}
+
+.title h1 {
+    color: #3A4750;
+    display: inline-block;
+    font-size: 4em;
+    font-family: 'Yeseva One', cursive;
+}
+
+.wrapper {
+    text-align: center;
+    width: auto;
+}
+
+.input {
+    display: block;
+    margin: 50px 0 0;
+    padding-top: 50px;
+}
+
+.in {
+    display: inline-block;
+    text-align: center;
+}
+
+.in-title {
+    display: block;
+    text-align: left;
+    
+}
+
+.input h2 {
+    /* margin: 0 0 10px; */
+    font-size: 2.15em;  
+}
+
+.input .show {
+    text-align: right;
+    margin-right: 10px;
+}
+
+#pass {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin: 5px 0 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#pass:focus {
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 0;
+    outline: none;
+}
+
+.out {
+    display: inline-block;
+    margin: 10px 0 20px;
+}
+
+.res {
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    background-color: rgb(192, 192, 192);
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.result {
+    margin: 3px 0 0;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.out h3 {
+    margin: 0 0 20px;
+}
+
+.out h3 .chars {
+    font-size: larger;
+    color: #00ADB5;
+}
+
+.out p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.divide {
+    opacity: 100%;
+    color: #00ADB5;
+}
+
+.low,
+.up,
+.num,
+.sym {
+    font-size: 15px;
+    color: rgb(192, 192, 192);
+    font-weight: normal;
+    opacity: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #00f2ff;
+    padding: 20px 0 20px;
+    margin: 152px 0 0;
+}
+
+.info {
+    font-size: large;
+    color: #3A4750;
+}
+
+a {
+    text-decoration: none;
+}
+
+.name:hover {
+    color: #00ADB5;
+}
+
+.name:active {
+    color: #00ADB5;
+}
+
+.name {
+    color: #3A4750;
+}
+
+@media only screen and (max-width: 750px) {
+    
+    .res {
+        text-align: center;
+        display: inline-block;
+        height: 40px;
+        width: 300px;
+        /* background-color: rgb(192, 192, 192); */
+        margin: 0 0 20px;
+        padding: 0;
+    }
+
+    #pass {
+        text-align: center;
+        height: 10px;
+        width: 300px;
+        margin: 5px 0 10px;
+        border: 5px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192);
+        font-size: large;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .title h1 {
+        display: inline-block;
+        font-size: 3em;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px 0 20px;
+        margin: 184px 0 0;
+    }
+
+    .input h2 {
+        font-size: 2em;
+    }
+
+    /* .input {
+        margin-right: 10px;
+    } */
+}
+
+@media only screen and (max-width: 460px) {
+    footer {
+        text-align: center;
+        margin: 134px 0 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .res {
+        text-align: center;
+        display: inline-block;
+        height: 30px;
+        width: 200px;
+        /* background-color: rgb(192, 192, 192); */
+        margin: 0 0 20px;
+        padding: 0;
+    }
+
+    #pass {
+        text-align: center;
+        height: 10px;
+        width: 200px;
+        margin: 5px 0 10px;
+        border: 5px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192);
+        font-size: large;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .in-title h2 {
+        margin-left: 10px;
+        font-size: 1.65em;
+    }
+
+    footer {
+        text-align: center;
+        margin: 154px 0 0;
+    }
+
+    .out h3 {
+        margin: 0 0 20px;
+        font-size: medium;
+    }
+
+    .result {
+        margin: 0;
+    }
+}

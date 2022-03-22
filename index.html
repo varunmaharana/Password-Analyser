@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Analyser</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto+Mono:wght@700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="title">
+        <h1>Password Analyser</h1>
+    </header>
+
+    <div class="wrapper">
+
+        <div class="input">
+            <div class="in">
+                <div class="in-title">
+                    <h2>Enter your password:</h2>
+                </div>
+                <div class="show">
+                    <label for="cb">Show Password: </label>
+                    <input type="checkbox" value="false" name="checkbox" id="cb">
+                </div>
+                <input type="password" id="pass" spellcheck="false" placeholder="Type a password">
+            </div>
+        </div>
+        <div class="output">
+            <div class="out">
+                <div class="res">
+                    <h2 class="result">No Password</h2>
+                </div>
+                <h3>Your Password Contains: <span class="chars">0</span> characters</h3>
+                <p class="char-type">
+                    <span class="low">Lower Case</span>
+                    <span class="divide"> | </span>
+                    <span class="up">Upper Case</span>
+                    <span class="divide"> | </span>
+                    <span class="num">Numbers</span>
+                    <span class="divide last"> | </span>
+                    <span class="sym">Symbols</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="info">
+        <div>
+            <span>&copy </span><span class="name">Varun Maharana</span>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
